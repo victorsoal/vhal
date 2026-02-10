@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A special Valentine message made with love ❤️" />
+  <title>Be My Valentine ❤️</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="index.css" />
+
+  <!-- Google Fonts (Elegant + Modern) -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Decorative animated hearts background -->
+  <div id="hearts-container" aria-hidden="true"></div>
+
+  <main class="page">
+    <section class="card" role="dialog" aria-labelledby="valentine-title">
+
+      <!-- Her Picture -->
+      <div class="image-wrapper">
+        <img 
+          src="ZAYNAB.jpg" 
+          alt="Picture of my Valentine"
+          loading="lazy"
+        />
+      </div>
+
+      <!-- Main Content -->
+      <h1 id="valentine-title">Will you be my Valentine? 💖</h1>
+      <p class="subtitle">Click “Yes” if your heart says yes.</p>
+
+      <!-- Actions -->
+      <div class="buttons">
+        <button id="yesBtn" class="btn primary" aria-label="Say yes to Valentine">
+          Yes 💕
+        </button>
+
+        <button id="noBtn" class="btn secondary" aria-label="Say no">
+          No 😢
+        </button>
+      </div>
+
+      <!-- Signature -->
+      <footer class="signature">
+        — From <strong>Victor</strong> ❤️
+      </footer>
+
+    </section>
+  </main>
+
+  <!-- Script -->
+  <script src="index.js" defer></script>
+</body>
+</html>
